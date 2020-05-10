@@ -1,0 +1,72 @@
+2020-05-10 18:03:23,422 ERROR 21987 [-/127.0.0.1/-/24ms GET /] nodejs.TypeError: Cannot read property 'includes' of undefined
+    at Default (webpack-internal:///./web/layout/default.js:11:24)
+    at processChild (/Users/pika/project/iblockchain-ssr/node_modules/react-dom/cjs/react-dom-server.node.development.js:2871:14)
+    at resolve (/Users/pika/project/iblockchain-ssr/node_modules/react-dom/cjs/react-dom-server.node.development.js:2795:5)
+    at ReactDOMServerRenderer.render (/Users/pika/project/iblockchain-ssr/node_modules/react-dom/cjs/react-dom-server.node.development.js:3185:22)
+    at ReactDOMServerRenderer.read (/Users/pika/project/iblockchain-ssr/node_modules/react-dom/cjs/react-dom-server.node.development.js:3144:29)
+    at ReactMarkupReadableStream._read (/Users/pika/project/iblockchain-ssr/node_modules/react-dom/cjs/react-dom-server.node.development.js:3681:38)
+    at ReactMarkupReadableStream.Readable.read (_stream_readable.js:459:10)
+    at resume_ (_stream_readable.js:948:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+pid: 21987
+hostname: linpeigengdeMacBook-Air.local
+
+2020-05-10 19:51:41,779 ERROR 22952 [-/127.0.0.1/-/27ms GET /news/1] nodejs.Invariant Violation: Objects are not valid as a React child (found: object with keys {1}). If you meant to render a collection of children, use an array instead.
+    in div
+    in News
+    in Connect(News)
+    in Default
+    in div
+    in body
+    in html
+    in Layout
+    in Context.Provider
+    in Router
+    in StaticRouter
+    in Provider
+    in DvaRoot
+    in div
+    in News
+    in Connect(News)
+    in Default
+    in div
+    in body
+    in html
+    in Layout
+    in Context.Provider
+    in Router
+    in StaticRouter
+    in Provider
+    in DvaRoot
+    at invariant (/Users/pika/project/iblockchain-ssr/node_modules/react/cjs/react.development.js:88:15)
+    at traverseAllChildrenImpl (/Users/pika/project/iblockchain-ssr/node_modules/react/cjs/react.development.js:1060:7)
+    at traverseAllChildrenImpl (/Users/pika/project/iblockchain-ssr/node_modules/react/cjs/react.development.js:1033:23)
+    at traverseAllChildren (/Users/pika/project/iblockchain-ssr/node_modules/react/cjs/react.development.js:1088:10)
+    at mapIntoWithKeyPrefixInternal (/Users/pika/project/iblockchain-ssr/node_modules/react/cjs/react.development.js:1166:3)
+    at toArray (/Users/pika/project/iblockchain-ssr/node_modules/react/cjs/react.development.js:1215:3)
+    at ReactDOMServerRenderer.renderDOM (/Users/pika/project/iblockchain-ssr/node_modules/react-dom/cjs/react-dom-server.node.development.js:3600:18)
+    at ReactDOMServerRenderer.render (/Users/pika/project/iblockchain-ssr/node_modules/react-dom/cjs/react-dom-server.node.development.js:3220:21)
+    at ReactDOMServerRenderer.read (/Users/pika/project/iblockchain-ssr/node_modules/react-dom/cjs/react-dom-server.node.development.js:3144:29)
+    at ReactMarkupReadableStream._read (/Users/pika/project/iblockchain-ssr/node_modules/react-dom/cjs/react-dom-server.node.development.js:3681:38)
+name: "Invariant Violation"
+framesToPop: 1
+pid: 22952
+hostname: linpeigengdeMacBook-Air.local
+
+2020-05-10 22:14:14,680 ERROR 22951 nodejs.ClusterClientNoResponseError: client no response in 1813073ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/pika/project/iblockchain-ssr/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 22951
+hostname: linpeigengdeMacBook-Air.local
+
+2020-05-10 22:19:51,413 ERROR 22951 nodejs.ClusterClientNoResponseError: client no response in 236640ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/pika/project/iblockchain-ssr/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 22951
+hostname: linpeigengdeMacBook-Air.local
+

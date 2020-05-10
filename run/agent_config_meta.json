@@ -1,0 +1,313 @@
+{
+  "keys": "/Users/pika/project/iblockchain-ssr/config/config.default.js",
+  "static": {
+    "prefix": "/Users/pika/project/iblockchain-ssr/config/config.default.js",
+    "dir": "/Users/pika/project/iblockchain-ssr/config/config.default.js",
+    "dynamic": "/Users/pika/project/iblockchain-ssr/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/pika/project/iblockchain-ssr/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/pika/project/iblockchain-ssr/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/pika/project/iblockchain-ssr/node_modules/egg-static/config/config.default.js"
+  },
+  "proxy": {
+    "host": "/Users/pika/project/iblockchain-ssr/config/config.local.js",
+    "match": "/Users/pika/project/iblockchain-ssr/config/config.local.js"
+  },
+  "session": {
+    "maxAge": "/Users/pika/project/iblockchain-ssr/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/pika/project/iblockchain-ssr/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/pika/project/iblockchain-ssr/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/pika/project/iblockchain-ssr/node_modules/egg-session/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/Users/pika/project/iblockchain-ssr/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/pika/project/iblockchain-ssr/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/pika/project/iblockchain-ssr/node_modules/egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Users/pika/project/iblockchain-ssr/node_modules/egg-security/config/config.default.js",
+      "type": "/Users/pika/project/iblockchain-ssr/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/pika/project/iblockchain-ssr/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/pika/project/iblockchain-ssr/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/pika/project/iblockchain-ssr/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/pika/project/iblockchain-ssr/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/pika/project/iblockchain-ssr/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/pika/project/iblockchain-ssr/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/pika/project/iblockchain-ssr/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/pika/project/iblockchain-ssr/node_modules/egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/Users/pika/project/iblockchain-ssr/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/pika/project/iblockchain-ssr/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/pika/project/iblockchain-ssr/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/pika/project/iblockchain-ssr/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/pika/project/iblockchain-ssr/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/pika/project/iblockchain-ssr/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/pika/project/iblockchain-ssr/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/pika/project/iblockchain-ssr/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/pika/project/iblockchain-ssr/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/pika/project/iblockchain-ssr/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/pika/project/iblockchain-ssr/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/pika/project/iblockchain-ssr/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/pika/project/iblockchain-ssr/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/pika/project/iblockchain-ssr/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/pika/project/iblockchain-ssr/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/pika/project/iblockchain-ssr/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/pika/project/iblockchain-ssr/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "/Users/pika/project/iblockchain-ssr/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/pika/project/iblockchain-ssr/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/pika/project/iblockchain-ssr/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/pika/project/iblockchain-ssr/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/pika/project/iblockchain-ssr/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/pika/project/iblockchain-ssr/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/pika/project/iblockchain-ssr/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/pika/project/iblockchain-ssr/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/pika/project/iblockchain-ssr/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/pika/project/iblockchain-ssr/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/pika/project/iblockchain-ssr/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/pika/project/iblockchain-ssr/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/pika/project/iblockchain-ssr/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/pika/project/iblockchain-ssr/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/pika/project/iblockchain-ssr/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/pika/project/iblockchain-ssr/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/pika/project/iblockchain-ssr/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/pika/project/iblockchain-ssr/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/pika/project/iblockchain-ssr/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/pika/project/iblockchain-ssr/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/pika/project/iblockchain-ssr/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/pika/project/iblockchain-ssr/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/pika/project/iblockchain-ssr/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/pika/project/iblockchain-ssr/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/pika/project/iblockchain-ssr/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/pika/project/iblockchain-ssr/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/pika/project/iblockchain-ssr/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/pika/project/iblockchain-ssr/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/pika/project/iblockchain-ssr/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/pika/project/iblockchain-ssr/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/pika/project/iblockchain-ssr/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/pika/project/iblockchain-ssr/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/pika/project/iblockchain-ssr/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/pika/project/iblockchain-ssr/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/pika/project/iblockchain-ssr/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/pika/project/iblockchain-ssr/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/pika/project/iblockchain-ssr/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/pika/project/iblockchain-ssr/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/pika/project/iblockchain-ssr/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/pika/project/iblockchain-ssr/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/pika/project/iblockchain-ssr/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/pika/project/iblockchain-ssr/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/pika/project/iblockchain-ssr/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/pika/project/iblockchain-ssr/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/pika/project/iblockchain-ssr/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/pika/project/iblockchain-ssr/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/pika/project/iblockchain-ssr/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/pika/project/iblockchain-ssr/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+  "name": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+  "cookies": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+    "version": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+    "dependencies": {
+      "dva": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "egg": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "egg-static": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "react": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "react-dom": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "react-router": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "react-router-dom": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "ykfe-utils": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "serialize-javascript": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "debug": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "start": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "ssr": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "csr": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "prod": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "build:server": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "build:client": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "build": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "analyze": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js"
+    },
+    "browserslist": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+    "devDependencies": {
+      "@babel/core": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "@babel/polyfill": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "@babel/preset-env": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "@babel/preset-react": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "babel-loader": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "browserslist": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "concurrently": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "cross-env": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "css-hot-loader": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "css-loader": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "css-modules-require-hook": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "egg-proxy": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "file-loader": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "less": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "less-loader": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "mini-css-extract-plugin": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "optimize-css-assets-webpack-plugin": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "postcss-flexbugs-fixes": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "postcss-loader": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "postcss-preset-env": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "postcss-safe-parser": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "rimraf": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "react-dev-utils": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "terser-webpack-plugin": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "url-loader": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "webpack": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "webpack-bundle-analyzer": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "webpack-cli": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "webpack-dev-server": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "webpack-manifest-plugin": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "webpack-merge": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "webpack-node-externals": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "yk-cli": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js"
+    }
+  },
+  "baseDir": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+    "textLimit": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+    "strict": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "depth": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+    "env": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+    "level": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+    "logging": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "port": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js"
+}

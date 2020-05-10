@@ -1,0 +1,36 @@
+2020-05-10 17:46:38,034 INFO 21800 [Timer] /Users/pika/project/iblockchain-ssr/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 38601970ms at 2020-05-11 04:30:00.004
+2020-05-10 17:46:38,034 INFO 21800 [Timer] /Users/pika/project/iblockchain-ssr/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 22401966ms at 2020-05-11 00:00:00.000
+2020-05-10 17:46:38,035 INFO 21800 [Timer] /Users/pika/project/iblockchain-ssr/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 22402966ms at 2020-05-11 00:00:01.001
+2020-05-10 17:46:37,860 INFO 21801 [egg-schedule]: register schedule /Users/pika/project/iblockchain-ssr/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-05-10 17:46:37,860 INFO 21801 [egg-schedule]: register schedule /Users/pika/project/iblockchain-ssr/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-05-10 17:46:37,860 INFO 21801 [egg-schedule]: register schedule /Users/pika/project/iblockchain-ssr/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-05-10 17:52:34,573 INFO 21891 [Timer] /Users/pika/project/iblockchain-ssr/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 38245430ms at 2020-05-11 04:30:00.003
+2020-05-10 17:52:34,574 INFO 21891 [Timer] /Users/pika/project/iblockchain-ssr/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 22045426ms at 2020-05-11 00:00:00.000
+2020-05-10 17:52:34,574 INFO 21891 [Timer] /Users/pika/project/iblockchain-ssr/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 22046426ms at 2020-05-11 00:00:01.000
+2020-05-10 17:52:34,361 INFO 21892 [egg-schedule]: register schedule /Users/pika/project/iblockchain-ssr/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-05-10 17:52:34,361 INFO 21892 [egg-schedule]: register schedule /Users/pika/project/iblockchain-ssr/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-05-10 17:52:34,361 INFO 21892 [egg-schedule]: register schedule /Users/pika/project/iblockchain-ssr/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-05-10 17:55:05,558 INFO 21986 [Timer] /Users/pika/project/iblockchain-ssr/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 38094446ms at 2020-05-11 04:30:00.004
+2020-05-10 17:55:05,559 INFO 21986 [Timer] /Users/pika/project/iblockchain-ssr/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 21894442ms at 2020-05-11 00:00:00.001
+2020-05-10 17:55:05,559 INFO 21986 [Timer] /Users/pika/project/iblockchain-ssr/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 21895441ms at 2020-05-11 00:00:01.000
+2020-05-10 17:55:05,329 INFO 21987 [egg-schedule]: register schedule /Users/pika/project/iblockchain-ssr/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-05-10 17:55:05,329 INFO 21987 [egg-schedule]: register schedule /Users/pika/project/iblockchain-ssr/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-05-10 17:55:05,329 INFO 21987 [egg-schedule]: register schedule /Users/pika/project/iblockchain-ssr/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-05-10 18:13:09,894 INFO 22521 [egg-schedule]: register schedule /Users/pika/project/iblockchain-ssr/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-05-10 18:13:09,894 INFO 22521 [egg-schedule]: register schedule /Users/pika/project/iblockchain-ssr/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-05-10 18:13:09,894 INFO 22521 [egg-schedule]: register schedule /Users/pika/project/iblockchain-ssr/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-05-10 19:27:41,129 INFO 22824 [egg-schedule]: register schedule /Users/pika/project/iblockchain-ssr/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-05-10 19:27:41,129 INFO 22824 [egg-schedule]: register schedule /Users/pika/project/iblockchain-ssr/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-05-10 19:27:41,129 INFO 22824 [egg-schedule]: register schedule /Users/pika/project/iblockchain-ssr/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-05-10 19:33:49,388 INFO 22898 [egg-schedule]: register schedule /Users/pika/project/iblockchain-ssr/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-05-10 19:33:49,389 INFO 22898 [egg-schedule]: register schedule /Users/pika/project/iblockchain-ssr/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-05-10 19:33:49,389 INFO 22898 [egg-schedule]: register schedule /Users/pika/project/iblockchain-ssr/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-05-10 19:33:49,586 INFO 22897 [Timer] /Users/pika/project/iblockchain-ssr/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 32170417ms at 2020-05-11 04:30:00.003
+2020-05-10 19:33:49,586 INFO 22897 [Timer] /Users/pika/project/iblockchain-ssr/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 15970414ms at 2020-05-11 00:00:00.000
+2020-05-10 19:33:49,587 INFO 22897 [Timer] /Users/pika/project/iblockchain-ssr/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 15971414ms at 2020-05-11 00:00:01.001
+2020-05-10 19:35:33,755 INFO 22952 [egg-schedule]: register schedule /Users/pika/project/iblockchain-ssr/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-05-10 19:35:33,755 INFO 22952 [egg-schedule]: register schedule /Users/pika/project/iblockchain-ssr/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-05-10 19:35:33,755 INFO 22952 [egg-schedule]: register schedule /Users/pika/project/iblockchain-ssr/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-05-10 19:35:34,125 INFO 22951 [Timer] /Users/pika/project/iblockchain-ssr/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 32065879ms at 2020-05-11 04:30:00.004
+2020-05-10 19:35:34,125 INFO 22951 [Timer] /Users/pika/project/iblockchain-ssr/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 15865875ms at 2020-05-11 00:00:00.000
+2020-05-10 19:35:34,126 INFO 22951 [Timer] /Users/pika/project/iblockchain-ssr/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 15866875ms at 2020-05-11 00:00:01.001

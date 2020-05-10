@@ -1,0 +1,71 @@
+2020-05-10 17:46:36,766 INFO 21800 [egg:logger] init all loggers with options: {"dir":"/Users/pika/project/iblockchain-ssr/logs/egg-ssr-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-ssr-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-05-10 17:46:36,777 INFO 21800 [egg:core] dump config after load, 8ms
+2020-05-10 17:46:36,912 INFO 21800 [egg-watcher] Start watching: ["/Users/pika/project/iblockchain-ssr/app","/Users/pika/project/iblockchain-ssr/config","/Users/pika/project/iblockchain-ssr/mocks","/Users/pika/project/iblockchain-ssr/mocks_proxy","/Users/pika/project/iblockchain-ssr/app.js"]
+2020-05-10 17:46:36,912 INFO 21800 [egg-watcher] Start watching: "/Users/pika/project/iblockchain-ssr/app"
+2020-05-10 17:46:36,913 INFO 21800 [egg-watcher] Start watching: "/Users/pika/project/iblockchain-ssr/config"
+2020-05-10 17:46:36,913 INFO 21800 [egg-watcher] Start watching: "/Users/pika/project/iblockchain-ssr/mocks"
+2020-05-10 17:46:36,913 INFO 21800 [egg-watcher] Start watching: "/Users/pika/project/iblockchain-ssr/mocks_proxy"
+2020-05-10 17:46:36,913 INFO 21800 [egg-watcher] Start watching: "/Users/pika/project/iblockchain-ssr/app.js"
+2020-05-10 17:46:36,921 INFO 21800 [egg-watcher:agent] watcher start success
+2020-05-10 17:46:36,953 INFO 21800 [egg:core] dump config after ready, 10ms
+2020-05-10 17:46:37,942 INFO 21800 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/pika/project/iblockchain-ssr/app/public","stat":{"dev":16777224,"mode":16877,"nlink":2,"uid":0,"gid":20,"rdev":0,"blksize":4096,"ino":1637403,"size":64,"blocks":0,"atimeMs":1589103997930.4133,"mtimeMs":1589103997930.4133,"ctimeMs":1589103997930.4133,"birthtimeMs":1589103997930.4133,"atime":"2020-05-10T09:46:37.930Z","mtime":"2020-05-10T09:46:37.930Z","ctime":"2020-05-10T09:46:37.930Z","birthtime":"2020-05-10T09:46:37.930Z"},"remove":false,"isDirectory":true,"isFile":false}
+2020-05-10 17:52:33,266 INFO 21891 [egg:logger] init all loggers with options: {"dir":"/Users/pika/project/iblockchain-ssr/logs/egg-ssr-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-ssr-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-05-10 17:52:33,279 INFO 21891 [egg:core] dump config after load, 7ms
+2020-05-10 17:52:33,334 INFO 21891 [egg-watcher] Start watching: ["/Users/pika/project/iblockchain-ssr/app","/Users/pika/project/iblockchain-ssr/config","/Users/pika/project/iblockchain-ssr/mocks","/Users/pika/project/iblockchain-ssr/mocks_proxy","/Users/pika/project/iblockchain-ssr/app.js"]
+2020-05-10 17:52:33,334 INFO 21891 [egg-watcher] Start watching: "/Users/pika/project/iblockchain-ssr/app"
+2020-05-10 17:52:33,335 INFO 21891 [egg-watcher] Start watching: "/Users/pika/project/iblockchain-ssr/config"
+2020-05-10 17:52:33,335 INFO 21891 [egg-watcher] Start watching: "/Users/pika/project/iblockchain-ssr/mocks"
+2020-05-10 17:52:33,335 INFO 21891 [egg-watcher] Start watching: "/Users/pika/project/iblockchain-ssr/mocks_proxy"
+2020-05-10 17:52:33,336 INFO 21891 [egg-watcher] Start watching: "/Users/pika/project/iblockchain-ssr/app.js"
+2020-05-10 17:52:33,337 INFO 21891 [egg-watcher:agent] watcher start success
+2020-05-10 17:52:33,383 INFO 21891 [egg:core] dump config after ready, 28ms
+2020-05-10 17:55:04,011 INFO 21986 [egg:logger] init all loggers with options: {"dir":"/Users/pika/project/iblockchain-ssr/logs/egg-ssr-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-ssr-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-05-10 17:55:04,026 INFO 21986 [egg:core] dump config after load, 8ms
+2020-05-10 17:55:04,114 INFO 21986 [egg-watcher] Start watching: ["/Users/pika/project/iblockchain-ssr/app","/Users/pika/project/iblockchain-ssr/config","/Users/pika/project/iblockchain-ssr/mocks","/Users/pika/project/iblockchain-ssr/mocks_proxy","/Users/pika/project/iblockchain-ssr/app.js"]
+2020-05-10 17:55:04,114 INFO 21986 [egg-watcher] Start watching: "/Users/pika/project/iblockchain-ssr/app"
+2020-05-10 17:55:04,115 INFO 21986 [egg-watcher] Start watching: "/Users/pika/project/iblockchain-ssr/config"
+2020-05-10 17:55:04,115 INFO 21986 [egg-watcher] Start watching: "/Users/pika/project/iblockchain-ssr/mocks"
+2020-05-10 17:55:04,115 INFO 21986 [egg-watcher] Start watching: "/Users/pika/project/iblockchain-ssr/mocks_proxy"
+2020-05-10 17:55:04,116 INFO 21986 [egg-watcher] Start watching: "/Users/pika/project/iblockchain-ssr/app.js"
+2020-05-10 17:55:04,117 INFO 21986 [egg-watcher:agent] watcher start success
+2020-05-10 17:55:04,143 INFO 21986 [egg:core] dump config after ready, 9ms
+2020-05-10 18:13:08,566 WARN 21986 [agent:development] reload worker because /Users/pika/project/iblockchain-ssr/config/config.ssr.js change
+2020-05-10 18:13:08,356 INFO 21986 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/pika/project/iblockchain-ssr/config/config.ssr.js","stat":{"dev":16777224,"mode":33204,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1592029,"size":1053,"blocks":8,"atimeMs":1589103803431.4502,"mtimeMs":1589105588291.1396,"ctimeMs":1589105588291.1396,"birthtimeMs":1587718090000,"atime":"2020-05-10T09:43:23.431Z","mtime":"2020-05-10T10:13:08.291Z","ctime":"2020-05-10T10:13:08.291Z","birthtime":"2020-04-24T08:48:10.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-05-10 19:27:39,659 INFO 21986 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/pika/project/iblockchain-ssr/app/router.js","stat":{"dev":16777224,"mode":33261,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1592020,"size":240,"blocks":8,"atimeMs":1589103803341.5186,"mtimeMs":1589110059595.9514,"ctimeMs":1589110059595.9514,"birthtimeMs":1587718090000,"atime":"2020-05-10T09:43:23.342Z","mtime":"2020-05-10T11:27:39.596Z","ctime":"2020-05-10T11:27:39.596Z","birthtime":"2020-04-24T08:48:10.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-05-10 19:27:39,862 WARN 21986 [agent:development] reload worker because /Users/pika/project/iblockchain-ssr/app/router.js change
+2020-05-10 19:33:48,364 INFO 22897 [egg:logger] init all loggers with options: {"dir":"/Users/pika/project/iblockchain-ssr/logs/egg-ssr-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-ssr-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-05-10 19:33:48,374 INFO 22897 [egg:core] dump config after load, 5ms
+2020-05-10 19:33:48,426 INFO 22897 [egg-watcher] Start watching: ["/Users/pika/project/iblockchain-ssr/app","/Users/pika/project/iblockchain-ssr/config","/Users/pika/project/iblockchain-ssr/mocks","/Users/pika/project/iblockchain-ssr/mocks_proxy","/Users/pika/project/iblockchain-ssr/app.js"]
+2020-05-10 19:33:48,426 INFO 22897 [egg-watcher] Start watching: "/Users/pika/project/iblockchain-ssr/app"
+2020-05-10 19:33:48,427 INFO 22897 [egg-watcher] Start watching: "/Users/pika/project/iblockchain-ssr/config"
+2020-05-10 19:33:48,427 INFO 22897 [egg-watcher] Start watching: "/Users/pika/project/iblockchain-ssr/mocks"
+2020-05-10 19:33:48,427 INFO 22897 [egg-watcher] Start watching: "/Users/pika/project/iblockchain-ssr/mocks_proxy"
+2020-05-10 19:33:48,427 INFO 22897 [egg-watcher] Start watching: "/Users/pika/project/iblockchain-ssr/app.js"
+2020-05-10 19:33:48,428 INFO 22897 [egg-watcher:agent] watcher start success
+2020-05-10 19:33:48,461 INFO 22897 [egg:core] dump config after ready, 17ms
+2020-05-10 19:35:32,838 INFO 22951 [egg:logger] init all loggers with options: {"dir":"/Users/pika/project/iblockchain-ssr/logs/egg-ssr-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-ssr-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-05-10 19:35:32,847 INFO 22951 [egg:core] dump config after load, 4ms
+2020-05-10 19:35:32,904 INFO 22951 [egg-watcher] Start watching: ["/Users/pika/project/iblockchain-ssr/app","/Users/pika/project/iblockchain-ssr/config","/Users/pika/project/iblockchain-ssr/mocks","/Users/pika/project/iblockchain-ssr/mocks_proxy","/Users/pika/project/iblockchain-ssr/app.js"]
+2020-05-10 19:35:32,904 INFO 22951 [egg-watcher] Start watching: "/Users/pika/project/iblockchain-ssr/app"
+2020-05-10 19:35:32,905 INFO 22951 [egg-watcher] Start watching: "/Users/pika/project/iblockchain-ssr/config"
+2020-05-10 19:35:32,905 INFO 22951 [egg-watcher] Start watching: "/Users/pika/project/iblockchain-ssr/mocks"
+2020-05-10 19:35:32,905 INFO 22951 [egg-watcher] Start watching: "/Users/pika/project/iblockchain-ssr/mocks_proxy"
+2020-05-10 19:35:32,905 INFO 22951 [egg-watcher] Start watching: "/Users/pika/project/iblockchain-ssr/app.js"
+2020-05-10 19:35:32,905 INFO 22951 [egg-watcher:agent] watcher start success
+2020-05-10 19:35:32,973 INFO 22951 [egg:core] dump config after ready, 57ms
+2020-05-10 22:14:14,702 ERROR 22951 nodejs.ClusterClientNoResponseError: client no response in 1813073ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/pika/project/iblockchain-ssr/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 22951
+hostname: linpeigengdeMacBook-Air.local
+
+2020-05-10 22:19:51,414 ERROR 22951 nodejs.ClusterClientNoResponseError: client no response in 236640ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/pika/project/iblockchain-ssr/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 22951
+hostname: linpeigengdeMacBook-Air.local
+
