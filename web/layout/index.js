@@ -1,4 +1,5 @@
 
+/* eslint-disable */
 import React from 'react'
 import '@/assets/common.less'
 import './index.less'
@@ -46,3 +47,4 @@ const Layout = (props) => {
 }
 
 export default Layout
+/* eslint-enable */

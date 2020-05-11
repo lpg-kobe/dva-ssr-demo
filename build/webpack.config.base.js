@@ -23,21 +23,28 @@ const webpackModule = {
         {
           test: /\.(js|mjs|jsx|ts|tsx)$/,
           exclude: /node_modules/,
-          loader: require.resolve('babel-loader'),
-          options: {
-            cacheDirectory: true,
-            cacheCompression: false,
-            presets: [
-              [
-                '@babel/preset-env',
-                {
-                  modules: false
-                }
+          use: [{
+            loader: require.resolve('babel-loader'),
+            options: {
+              cacheDirectory: true,
+              cacheCompression: false,
+              presets: [
+                [
+                  '@babel/preset-env',
+                  {
+                    modules: false
+                  }
+                ],
+                '@babel/preset-react'
               ],
-              '@babel/preset-react'
-            ],
-            plugins: []
-          }
+              plugins: []
+            }
+          }, {
+            loader: require.resolve('eslint-loader'),
+            options: {
+              enforce: 'pre'
+            }
+          }]
         },
         {
           test: /\.css$/,

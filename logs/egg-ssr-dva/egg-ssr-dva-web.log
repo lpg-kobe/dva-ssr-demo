@@ -54,3 +54,123 @@ framesToPop: 1
 pid: 22952
 hostname: linpeigengdeMacBook-Air.local
 
+2020-05-11 08:21:10,581 ERROR 25588 [-/127.0.0.1/-/21ms GET /204018f787994fb706de.hot-update.json] nodejs.ECONNRESETError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "ECONNRESETError"
+pid: 25588
+hostname: linpeigengdeMacBook-Air.local
+
+2020-05-11 10:45:07,391 ERROR 26045 [-/127.0.0.1/-/401ms GET /] nodejs.Error: Invariant failed: You should not use <Redirect> outside a <Router>
+    at invariant (/Users/pika/project/iblockchain-ssr/node_modules/tiny-invariant/dist/tiny-invariant.cjs.js:13:11)
+    at Object.children (/Users/pika/project/iblockchain-ssr/node_modules/react-router/cjs/react-router.js:316:17)
+    at ReactDOMServerRenderer.render (/Users/pika/project/iblockchain-ssr/node_modules/react-dom/cjs/react-dom-server.node.development.js:3395:55)
+    at ReactDOMServerRenderer.read (/Users/pika/project/iblockchain-ssr/node_modules/react-dom/cjs/react-dom-server.node.development.js:3144:29)
+    at ReactMarkupReadableStream._read (/Users/pika/project/iblockchain-ssr/node_modules/react-dom/cjs/react-dom-server.node.development.js:3681:38)
+    at ReactMarkupReadableStream.Readable.read (_stream_readable.js:459:10)
+    at resume_ (_stream_readable.js:948:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+pid: 26045
+hostname: linpeigengdeMacBook-Air.local
+
+2020-05-11 11:03:23,283 ERROR 26166 [-/127.0.0.1/-/373ms GET /404] nodejs.ReferenceError: React is not defined
+    at notFound (webpack-internal:///./web/page/404.js:3:3)
+    at processChild (/Users/pika/project/iblockchain-ssr/node_modules/react-dom/cjs/react-dom-server.node.development.js:2871:14)
+    at resolve (/Users/pika/project/iblockchain-ssr/node_modules/react-dom/cjs/react-dom-server.node.development.js:2795:5)
+    at ReactDOMServerRenderer.render (/Users/pika/project/iblockchain-ssr/node_modules/react-dom/cjs/react-dom-server.node.development.js:3185:22)
+    at ReactDOMServerRenderer.read (/Users/pika/project/iblockchain-ssr/node_modules/react-dom/cjs/react-dom-server.node.development.js:3144:29)
+    at ReactMarkupReadableStream._read (/Users/pika/project/iblockchain-ssr/node_modules/react-dom/cjs/react-dom-server.node.development.js:3681:38)
+    at ReactMarkupReadableStream.Readable.read (_stream_readable.js:459:10)
+    at resume_ (_stream_readable.js:948:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+pid: 26166
+hostname: linpeigengdeMacBook-Air.local
+
+2020-05-11 12:11:07,429 ERROR 26533 [-/127.0.0.1/-/11ms GET /dsdss] nodejs.ReferenceError: pwd is not defined
+    at notFoundHandler (/Users/pika/project/iblockchain-ssr/app/middleware/pageNotFound.js:4:17)
+    at async /Users/pika/project/iblockchain-ssr/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/pika/project/iblockchain-ssr/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/pika/project/iblockchain-ssr/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/pika/project/iblockchain-ssr/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/pika/project/iblockchain-ssr/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/pika/project/iblockchain-ssr/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/pika/project/iblockchain-ssr/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/pika/project/iblockchain-ssr/node_modules/koa-static-cache/index.js:73:16
+    at async /Users/pika/project/iblockchain-ssr/node_modules/koa-static-cache/index.js:73:16
+
+pid: 26533
+hostname: linpeigengdeMacBook-Air.local
+
+2020-05-11 12:11:29,454 ERROR 26534 [-/127.0.0.1/-/10ms GET /dsdss] nodejs.ReferenceError: cwd is not defined
+    at notFoundHandler (/Users/pika/project/iblockchain-ssr/app/middleware/pageNotFound.js:4:17)
+    at async /Users/pika/project/iblockchain-ssr/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/pika/project/iblockchain-ssr/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/pika/project/iblockchain-ssr/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/pika/project/iblockchain-ssr/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/pika/project/iblockchain-ssr/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/pika/project/iblockchain-ssr/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/pika/project/iblockchain-ssr/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/pika/project/iblockchain-ssr/node_modules/koa-static-cache/index.js:73:16
+    at async /Users/pika/project/iblockchain-ssr/node_modules/koa-static-cache/index.js:73:16
+
+pid: 26534
+hostname: linpeigengdeMacBook-Air.local
+
+2020-05-11 12:11:30,352 ERROR 26534 [-/127.0.0.1/-/2ms GET /dsdss] nodejs.ReferenceError: cwd is not defined
+    at notFoundHandler (/Users/pika/project/iblockchain-ssr/app/middleware/pageNotFound.js:4:17)
+    at async /Users/pika/project/iblockchain-ssr/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/pika/project/iblockchain-ssr/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/pika/project/iblockchain-ssr/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/pika/project/iblockchain-ssr/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/pika/project/iblockchain-ssr/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/pika/project/iblockchain-ssr/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/pika/project/iblockchain-ssr/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/pika/project/iblockchain-ssr/node_modules/koa-static-cache/index.js:73:16
+    at async /Users/pika/project/iblockchain-ssr/node_modules/koa-static-cache/index.js:73:16
+
+pid: 26534
+hostname: linpeigengdeMacBook-Air.local
+
+2020-05-11 12:28:17,154 ERROR 26584 [-/127.0.0.1/-/13ms GET /dsdss] nodejs.ENOENTError: ENOENT: no such file or directory, open '/404.html'
+    at Object.openSync (fs.js:458:3)
+    at Object.readFileSync (fs.js:360:35)
+    at notFoundHandler (/Users/pika/project/iblockchain-ssr/app/middleware/pageNotFound.js:11:31)
+    at async /Users/pika/project/iblockchain-ssr/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/pika/project/iblockchain-ssr/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/pika/project/iblockchain-ssr/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/pika/project/iblockchain-ssr/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/pika/project/iblockchain-ssr/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/pika/project/iblockchain-ssr/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/pika/project/iblockchain-ssr/node_modules/koa-bodyparser/index.js:95:5)
+errno: -2
+syscall: "open"
+code: "ENOENT"
+path: "/404.html"
+name: "ENOENTError"
+pid: 26584
+hostname: linpeigengdeMacBook-Air.local
+
+2020-05-11 16:52:01,819 ERROR 31468 [-/127.0.0.1/-/16ms GET /] Page Controller renderToStream Error Error: Cannot find module '/Users/pika/project/iblockchain-ssr/node_modules/react-dom/server'
+Require stack:
+- /Users/pika/project/iblockchain-ssr/node_modules/ykfe-utils/lib/renderToStream.js
+- /Users/pika/project/iblockchain-ssr/app/controller/page.js
+- /Users/pika/project/iblockchain-ssr/node_modules/egg-core/lib/utils/index.js
+- /Users/pika/project/iblockchain-ssr/node_modules/egg-core/lib/egg.js
+- /Users/pika/project/iblockchain-ssr/node_modules/egg-core/index.js
+- /Users/pika/project/iblockchain-ssr/node_modules/egg/lib/application.js
+- /Users/pika/project/iblockchain-ssr/node_modules/egg/index.js
+- /Users/pika/project/iblockchain-ssr/node_modules/egg-cluster/lib/app_worker.js
+2020-05-11 17:16:06,941 ERROR 31779 [-/127.0.0.1/-/49ms GET /] Page Controller renderToStream Error Error: Cannot find module '/Users/pika/project/iblockchain-ssr/dist/Page.server.js'
+Require stack:
+- /Users/pika/project/iblockchain-ssr/node_modules/ykfe-utils/lib/renderToStream.js
+- /Users/pika/project/iblockchain-ssr/app/controller/page.js
+- /Users/pika/project/iblockchain-ssr/node_modules/egg-core/lib/utils/index.js
+- /Users/pika/project/iblockchain-ssr/node_modules/egg-core/lib/egg.js
+- /Users/pika/project/iblockchain-ssr/node_modules/egg-core/index.js
+- /Users/pika/project/iblockchain-ssr/node_modules/egg/lib/application.js
+- /Users/pika/project/iblockchain-ssr/node_modules/egg/index.js
+- /Users/pika/project/iblockchain-ssr/node_modules/egg-cluster/lib/app_worker.js

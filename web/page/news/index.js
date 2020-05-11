@@ -1,8 +1,9 @@
+/* eslint-disable */
 import React from 'react'
 import { connect } from 'dva'
 import './index.less'
 
-function News (props) {
+function News(props) {
   return <div className='news-container'>
     文章详情: {props.detail[1]}
   </div>
@@ -18,3 +19,4 @@ const mapStateToProps = (state) => ({
 })
 
 export default connect(mapStateToProps)(News)
+/* eslint-enable */

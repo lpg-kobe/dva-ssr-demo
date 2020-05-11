@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { getInfo } from '@/api'
 const getData = async ({ id }) => {
   return Promise.resolve({
@@ -27,3 +28,4 @@ export default {
     }
   }
 }
+/* eslint-enable */

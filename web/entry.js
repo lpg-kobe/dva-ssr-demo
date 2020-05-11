@@ -1,7 +1,8 @@
+/* eslint-disable */
 import React from 'react'
 import ReactDOM from 'react-dom'
 import dva from 'dva'
-import { BrowserRouter, StaticRouter, Route, Switch } from 'react-router-dom'
+import { BrowserRouter, StaticRouter, Route, Switch, Redirect } from 'react-router-dom'
 import { getWrappedComponent, getComponent } from 'ykfe-utils'
 import { createMemoryHistory, createBrowserHistory } from 'history'
 import { routes as Routes } from '../config/config.ssr'
@@ -76,3 +77,4 @@ const serverRender = async ctx => {
 }
 
 export default __isBrowser__ ? clientRender() : serverRender
+/* eslint-enable */

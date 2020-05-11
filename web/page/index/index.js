@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from 'react'
 import { connect } from 'dva'
 import './index.less'
@@ -26,3 +27,4 @@ Index.getInitialProps = async ({ store }) => {
 }
 
 export default connect(state => state.index)(Index)
+/* eslint-enable */

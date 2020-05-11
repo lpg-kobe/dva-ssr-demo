@@ -112,7 +112,7 @@
       "files": 10,
       "fileExtensions": [],
       "whitelist": null,
-      "tmpdir": "/tmp/egg-multipart-tmp/egg-ssr-dva",
+      "tmpdir": "/var/folders/rc/v9dvpdxd3vd5nb3w4d1746vm0000gn/T/egg-multipart-tmp/egg-ssr-dva",
       "cleanSchedule": {
         "cron": "0 30 4 * * *"
       }
@@ -168,6 +168,7 @@
       "name": "egg-ssr-dva",
       "version": "2.0.0",
       "dependencies": {
+        "antd": "^4.0.0",
         "dva": "2.4.1",
         "egg": "^2.21.0",
         "egg-scripts": "^2.11.0",
@@ -176,8 +177,8 @@
         "react-dom": "16.8.3",
         "react-router": "^5.0.1",
         "react-router-dom": "^5.0.0",
-        "ykfe-utils": "^2.0.2",
-        "serialize-javascript": "^2.1.2"
+        "serialize-javascript": "^2.1.2",
+        "ykfe-utils": "^2.0.2"
       },
       "scripts": {
         "debug": "egg-bin debug",
@@ -188,7 +189,9 @@
         "build:server": "cross-env NODE_ENV=production webpack --config build/webpack.config.server.js",
         "build:client": "cross-env NODE_ENV=production ykcli build",
         "build": "rimraf dist && ykcli build && npm run build:server",
-        "analyze": "cross-env NODE_ENV=production npm_config_report=true npm run build"
+        "analyze": "cross-env NODE_ENV=production npm_config_report=true npm run build",
+        "lint": "eslint --ext .js --ext .jsx --ext .vue web/",
+        "lint-fix": "eslint --fix --ext .js --ext .jsx --ext .vue web/"
       },
       "browserslist": [
         ">0.2%",
@@ -198,9 +201,14 @@
       ],
       "devDependencies": {
         "@babel/core": "^7.4.4",
+        "@babel/plugin-transform-runtime": "^7.9.6",
         "@babel/polyfill": "^7.4.4",
         "@babel/preset-env": "^7.5.5",
         "@babel/preset-react": "^7.0.0",
+        "@babel/runtime": "^7.9.6",
+        "@typescript-eslint/eslint-plugin": "^2.31.0",
+        "@typescript-eslint/parser": "^2.31.0",
+        "babel-eslint": "^10.1.0",
         "babel-loader": "8.0.4",
         "browserslist": "^4.6.3",
         "concurrently": "^4.1.0",
@@ -210,6 +218,15 @@
         "css-modules-require-hook": "^4.2.3",
         "egg-bin": "^4.13.1",
         "egg-proxy": "^1.1.0",
+        "eslint": "^7.0.0",
+        "eslint-config-standard": "^14.1.1",
+        "eslint-loader": "^4.0.2",
+        "eslint-plugin-html": "^6.0.2",
+        "eslint-plugin-import": "^2.20.2",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "^4.2.1",
+        "eslint-plugin-react": "^7.19.0",
+        "eslint-plugin-standard": "^4.0.1",
         "file-loader": "2.0.0",
         "less": "^3.9.0",
         "less-loader": "^4.1.0",
@@ -219,8 +236,8 @@
         "postcss-loader": "3.0.0",
         "postcss-preset-env": "^6.0.5",
         "postcss-safe-parser": "4.0.1",
-        "rimraf": "^2.6.3",
         "react-dev-utils": "^8.0.0",
+        "rimraf": "^2.6.3",
         "terser-webpack-plugin": "^1.2.0",
         "url-loader": "1.1.1",
         "webpack": "4.19.1",
@@ -234,7 +251,7 @@
       }
     },
     "baseDir": "/Users/pika/project/iblockchain-ssr",
-    "HOME": "/var/root",
+    "HOME": "/Users/pika",
     "rundir": "/Users/pika/project/iblockchain-ssr/run",
     "dump": {
       "ignore": "<Set>"
@@ -330,9 +347,12 @@
       "responseTimeout": 60000
     },
     "onClientError": null,
+    "middleware": [
+      "pageNotFound"
+    ],
     "coreMiddlewares": "~config~coreMiddleware",
-    "appMiddlewares": [],
-    "appMiddleware": "~config~appMiddlewares"
+    "appMiddlewares": "~config~middleware",
+    "appMiddleware": "~config~middleware"
   },
   "plugins": {
     "session": {

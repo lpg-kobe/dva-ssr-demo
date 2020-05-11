@@ -5,10 +5,10 @@ export default {
     news: []
   },
   subscriptions: {
-    setup({ history, dispatch }) { }
+    setup ({ history, dispatch }) { }
   },
   reducers: {
-    save(state, { payload }) {
+    save (state, { payload }) {
       return {
         ...state,
         ...payload
@@ -16,7 +16,7 @@ export default {
     }
   },
   effects: {
-    * getData({ payload }, { call, put }) {
+    * getData ({ payload }, { call, put }) {
       const data = yield call(getData, payload)
       yield put({
         type: 'save',

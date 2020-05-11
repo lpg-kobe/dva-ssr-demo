@@ -1,4 +1,4 @@
 export default {
-    homeListApi: '/api/getIndexData',
-    detailApi: '/api/getDetail',
+  homeListApi: '/api/getIndexData',
+  detailApi: '/api/getDetail'
 }

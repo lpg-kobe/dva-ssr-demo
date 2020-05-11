@@ -8,6 +8,7 @@
     "buffer": "/Users/pika/project/iblockchain-ssr/node_modules/egg-static/config/config.default.js",
     "maxFiles": "/Users/pika/project/iblockchain-ssr/node_modules/egg-static/config/config.default.js"
   },
+  "middleware": "/Users/pika/project/iblockchain-ssr/config/config.default.js",
   "proxy": {
     "host": "/Users/pika/project/iblockchain-ssr/config/config.local.js",
     "match": "/Users/pika/project/iblockchain-ssr/config/config.local.js"
@@ -160,6 +161,7 @@
     "name": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
     "version": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
     "dependencies": {
+      "antd": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
       "dva": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
       "egg": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
       "egg-scripts": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
@@ -168,8 +170,8 @@
       "react-dom": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
       "react-router": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
       "react-router-dom": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
-      "ykfe-utils": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
-      "serialize-javascript": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js"
+      "serialize-javascript": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "ykfe-utils": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js"
     },
     "scripts": {
       "debug": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
@@ -180,14 +182,21 @@
       "build:server": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
       "build:client": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
       "build": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
-      "analyze": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js"
+      "analyze": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "lint": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "lint-fix": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js"
     },
     "browserslist": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
     "devDependencies": {
       "@babel/core": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "@babel/plugin-transform-runtime": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
       "@babel/polyfill": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
       "@babel/preset-env": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
       "@babel/preset-react": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "@babel/runtime": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "@typescript-eslint/eslint-plugin": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "@typescript-eslint/parser": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "babel-eslint": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
       "babel-loader": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
       "browserslist": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
       "concurrently": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
@@ -197,6 +206,15 @@
       "css-modules-require-hook": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
       "egg-bin": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
       "egg-proxy": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "eslint-config-standard": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "eslint-loader": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "eslint-plugin-html": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "eslint-plugin-import": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "eslint-plugin-node": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "eslint-plugin-promise": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "eslint-plugin-react": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "eslint-plugin-standard": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
       "file-loader": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
       "less": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
       "less-loader": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
@@ -206,8 +224,8 @@
       "postcss-loader": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
       "postcss-preset-env": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
       "postcss-safe-parser": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
-      "rimraf": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
       "react-dev-utils": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
+      "rimraf": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
       "terser-webpack-plugin": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
       "url-loader": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",
       "webpack": "/Users/pika/project/iblockchain-ssr/node_modules/egg/config/config.default.js",

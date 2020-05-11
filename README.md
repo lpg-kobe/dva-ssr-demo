@@ -1,10 +1,10 @@
-# Egg + React + SSR应用骨架
+# Egg + React + SSR应用骨架 (DVA實現)
 
-详细用法实现请查看[官方文档](http://ykfe.net)
+详细用法实现请參考[官方文档](http://ykfe.net)
 
 # Getting Start
 
-这里我们提供了一个脚手架来方便你创建项目
+妳也可以使用官方提供的脚手架来方便你创建项目
 
 ```
 $ npm install yk-cli -g
@@ -29,8 +29,5 @@ $ open http://localhost:7001
 - [x] 抛弃传统模版引擎，拥抱 React 组件，使用JSX来作为模版
 - [x] 配套结合[antd](https://github.com/ykfe/egg-react-ssr/tree/master/example/ssr-with-antd)的example的实现
 - [x] 配套结合[react-loadable](https://github.com/ykfe/egg-react-ssr/tree/master/example/ssr-with-loadable)做路由分割的example的实现
-- [x] 配套结合[dva](https://github.com/ykfe/egg-react-ssr/tree/master/example/ssr-with-dva)做数据管理的example的实现
-- [x] 配套阿里云serverless [FC](https://github.com/ykfe/ssr-with-fc)版本的实现
-- [x] 配套[TypeScript](https://github.com/ykfe/egg-react-ssr/tree/dev/example/ssr-with-ts)版本的实现 
 
 
